@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { HubRouter, haversineDistanceKm } from '../src/services/hubRouter.js';
 
+
 const mockNodes = {
   hubs: [
     { id: 'hub-1', name: 'Hub 1', lat: 23.0, lng: 77.0, capacity: 10, currentLoad: 2, status: 'healthy' }
